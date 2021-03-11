@@ -19,8 +19,8 @@
                 </p>
             </div>
         
-    
-        <form action="index.php" method="post">
+<!--htmlspecialchars converts special characters to HTML entities so exploitation with script is not possible-->
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
            
             <div class="form-input">
                 <label for="name">Full Name : </label>
