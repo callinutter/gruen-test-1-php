@@ -44,7 +44,7 @@
             
             <div class="form-input">
                 <label for="amount">Please Specify an amount : </label>
-                <input type="number" name="amount" required>
+                <input type="number" min="1" name="amount" required>
             </div>   
             <button type="submit" name="donate"> Donate </button>
         </form>
